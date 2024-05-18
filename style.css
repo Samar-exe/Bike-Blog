@@ -1,0 +1,199 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Stylinh the Header */
+header {
+  background-color: #1F2937;
+}
+
+
+/* Styling the Nav bar in Header */
+body header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  margin-top: 0;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.logo a {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+nav {
+  border-bottom: 2px solid #E5E7EB;
+}
+
+/* Styling The Info Section in The Header */
+
+.About {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+}
+
+.info h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #F9FAF8;
+}
+
+.info p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.button button {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.button {
+  background-color: #3882F6;
+  color: white;
+  width: 90px;
+  height: 30px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 150px;
+  font-weight: 900;
+}
+
+.About img {
+  width: 400px;
+  height: auto;
+  justify-self: flex-end;
+}
+
+.info {
+  align-self: flex-start;
+  margin-right: 4rem;
+}
+
+
+/* Styling the Information Section */
+.information {
+  text-align: center;
+}
+
+.information h1 {
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.card img {
+  border: 3px solid #3882F6;
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.cards .card {
+  display: flex;
+  flex-direction: column;
+  color: #1F2937;
+}
+
+
+/* Styling the quote Section */
+
+.quote {
+  background-color: #E5E7EB;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+  padding: 20px;
+}
+
+
+
+/* Styling the Sign Up section */
+.join {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+}
+
+.flag {
+  width: 900px;
+  height: 150px;
+  background-color: #3882F6;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  gap: 40px;
+
+}
+
+.flag .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.text h2 {
+  margin: 0;
+}
+
+.text p {
+  color: #E5E7EB;
+  margin: 0;
+}
+
+.flag button {
+  background-color: transparent;
+  border: 2px solid white;
+  width: 100px;
+  height: 50px;
+  border-radius: 30px;
+  align-self: center;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.join {
+  flex-grow: 1;
+}
+
+/* Styling the Footer */
+
+footer {
+  background-color: #1F2937;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
